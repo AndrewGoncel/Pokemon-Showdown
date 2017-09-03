@@ -13,6 +13,12 @@ class RandomStaffBrosTeams extends RandomTeams {
 				signatureMove: "Energy Field",
 				evs: {hp:4, spa:252, spe:252}, nature: 'Modest',
 			},
+			'Andy >_>' {
+				species: 'Absol', ability: 'Justified', item: 'Absolite', gender: 'M',
+				moves: ['Swords Dance', 'Sucker Punch', ['U-Turn', 'Knock Off'][this.random(2)]],
+				signatureMove: "Pilfer",
+				evs: {hp:252, atk: 252, spe:4}, nature: 'Adamant,
+			},
 			'Astara': {
 				species: 'Jirachi', ability: 'Cursed Body', item: ['Leftovers', 'Sitrus Berry'][this.random(2)], gender: 'F', shiny: true,
 				moves: ['psystrike', 'moonblast', 'nastyplot', 'scald', 'recover'],
@@ -30,12 +36,6 @@ class RandomStaffBrosTeams extends RandomTeams {
 				moves: [['Gunk Shot', 'Poison Jab'][this.random(2)], 'Recover', 'Coil'],
 				signatureMove: 'Dark Aggro',
 				evs: {hp: 252, spa: 252, spd: 4}, nature: 'Adamant',
-			},
-			'HoeenHero': {
-				species: 'Ludicolo', ability: 'Swift Swim', item: 'Damp Rock', gender: 'M',
-				moves: [['Hydro Pump', 'Scald'][this.random(2)], 'Giga Drain', 'Ice Beam'],
-				signatureMove: 'Scripting',
-				evs: {def: 4, spa: 252, spe: 252}, nature: 'Modest',
 			},
 			'imas': {
 				species: 'Skarmory', ability: 'Flash Feather', item: 'imasium Z', gender: 'M',
